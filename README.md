@@ -3,15 +3,16 @@
 There are two functions: makeCacheMatrix(), that creates a cacheable version of matrix 'x'
 and also cacheSolve(), which inverts the matrix and caches the inverse for subsequent calls
 
-# An example of R use would be
+### An example of R use would be
 
-'''R
+```
 matX <- matrix(1:4, 2, 2)
 SpecialmatX = makeCacheMatrix(matX)
 InvMatX_1stCall = cacheSolve(SpecialmatX)
 InvMatX_2ndCall = cacheSolve(SpecialmatX)
-The 2ndcall should print .. 'getting cached inverse'
-'''
+The 2ndcall should print .. "getting cached inverse"
+```
+
 
 ### Introduction
 
