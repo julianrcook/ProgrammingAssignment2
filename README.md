@@ -5,7 +5,7 @@ and also cacheSolve(), which inverts the matrix and caches the inverse for subse
 
 ### An example of R use would be
 
-```
+```R
 matX <- matrix(1:4, 2, 2)
 SpecialmatX = makeCacheMatrix(matX)
 InvMatX_1stCall = cacheSolve(SpecialmatX)
